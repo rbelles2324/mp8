@@ -1,0 +1,132 @@
+body {
+        font-family: Arial, "Helvetica", sans-serif;
+        margin: 0;
+        
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+h1, p {
+    padding: 25px;
+    width: 350px;
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+
+div {
+    
+}
+
+#menu {
+    background-color: white;
+    height:40px ;
+}
+
+li {
+    display: inline;
+    margin: 0 20px 0 0;
+    background-color: #6c3;
+    padding: 10px;
+    border-top-left-radius: 7px;
+}
+
+#coneix {
+    background-color: #6c3;
+    height: 550px;
+    background-image: url(img/img-hero-full-list.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+
+#tot {
+    background-color: white;
+    height: 641px;
+    background-image: url(img/allinone.jpg);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+
+#util {
+    background-color: #333;
+    height: 500px;
+    background-image: url(img/curator-short.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+    
+}
+
+#rapid {
+    background-color: #eeecee;
+    height: 550px;
+    background-image: url(img/img-hero-full-list.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0
+}
+
+#facil {
+    background-color: #6c3;
+    height: 550px;
+    background-image: url(img/mobile-share.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0
+}
+
+#arreu {
+    background-color: #eeecee;
+    height: 643px;
+    background-image: url(img/anywhere.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0
+}
+
+#canvia {
+    background-color: #333;
+    height: 200px;
+    text-align: center;
+}
+
+img{
+    
+    
+    
+}
+
+#menu img {
+    display: inline;
+    
+}
+
+#canvia img {
+    margin: 25px;
+}
+
+ul {
+    display: inline-block;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#tornar {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    color: #fff ;
+    position: fixed;
+    bottom: 200px;
+    right: 200px;
+    border-radius:50px;
+    text-align: center;
+    font-size: 125px;
+}

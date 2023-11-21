@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float 2</title>
+
+    <style>
+        div {
+            margin: 0 1%;
+            padding: 0.5%;
+            
+        }
+    
+        h1 {
+            margin: 0;
+            text-align: center ;
+        }
+
+        h2 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+
+        h3 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .cap {
+            padding: 1%;
+            background-color: blue;
+            text-align: center;
+            color: white;
+            height: 50px;
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        .menu {
+            float: left;
+            width: 24%;
+            background-color: skyblue;
+            height: 200px;
+            margin: 0;
+            
+
+        }
+
+        .contingut {
+            float: left;
+            width: 49%;
+            height: 850px;
+            margin: 0;
+            overflow: scroll;
+            
+        }
+
+        .lateral {
+            float: right;
+            width: 24%;
+            background-color: skyblue;
+            height: 180px;
+            margin: 0;
+        }
+
+        .peu {
+            background-color: blue;
+            clear:left;
+            color: white;
+            text-align: center;
+            
+        }
+
+        .body {
+            margin: 0;
+        }
+
+        *, *:after, *:before{
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+        body div{
+
+        }
+
+        div > .classe {
+
+        }
+
+        .navegacio{
+           width: 40%;
+           margin: auto;
+        }
+
+        .primernivell{
+            background-color: blue;
+            color: white;
+            margin: 0.5rem;
+            display: inline-block;
+            padding: 0.25rem;
+            height: 2rem;
+            position: relative;
+        }
+
+        .primernivell:hover{
+            background-color: cornflowerblue;
+        }
+        
+        .primernivell:hover > .secundari{
+            display: block;
+        }
+
+        .secundari{
+            display: block;
+            background-color: blue;
+            position: absolute;
+            left: 0;
+            top: 2.5rem;
+            display: none;
+        }
+
+        .segonnivell:hover{
+            background-color: blue;
+        }
+
+        .segonnivell{
+            background-color: lightblue;
+            display: block;
+            top: 2rem;
+            font-size: 0.85rem;
+            height: 2rem;
+            border-bottom: solid white 1px;
+        }
+
+    </style>
+</head>
+
+
+
+<body>
+    <div class="cap">
+        <h1>Frankbook</h1>
+    </div>
+
+    <ul class="navegacio">
+        <li class="primernivell">Opcio 1
+            <ul class="secundari">
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+            </ul>
+        </li>
+            
+        <li class="primernivell">Opcio 2
+        <ul class="secundari">
+            <li class="segonnivell">Sub-opció</li>
+            <li class="segonnivell">Sub-opció</li>
+            <li class="segonnivell">Sub-opció</li>
+            <li class="segonnivell">Sub-opció</li>
+            <li class="segonnivell">Sub-opció</li>
+        </ul>
+    </li>
+    <li class="primernivell">Opcio 3
+    <ul class="secundari">
+        <li class="segonnivell">Sub-opció</li>
+        <li class="segonnivell">Sub-opció</li>
+        <li class="segonnivell">Sub-opció</li>
+        <li class="segonnivell">Sub-opció</li>
+        <li class="segonnivell">Sub-opció</li>
+    </ul>
+    <li class="primernivell">Opcio 4
+    <ul class="secundari">
+        <li class="segonnivell">Sub-opció</li>
+        <li class="segonnivell">Sub-opció</li>
+        <li class="segonnivell">Sub-opció</li>
+        <li class="segonnivell">Sub-opció</li>
+        <li class="segonnivell">Sub-opció</li>
+    </ul>
+    <li class="primernivell">Opcio 5
+    <ul class="secundari">
+        <li class="segonnivell">Sub-opció</li>
+        <li class="segonnivell">Sub-opció</li>
+        <li class="segonnivell">Sub-opció</li>
+        <li class="segonnivell">Sub-opció</li>
+        <li class="segonnivell">Sub-opció</li>
+    </ul>
+    </li>
+    </ul>
+
+    <div class="menu">
+        <h2>Home</h2>
+        <ul>
+            <li><a href="#e1"> Entrada 1</a></li>
+            <li><a href="#e2"> Entrada 2</a></li>
+            <li><a href="#e3"> Entrada 3</a></li>
+            <li><a href="#e4"> Entrada 4</a></li>
+            <li><a href="#e5"> Entrada 5</a></li>
+            <li><a href="#e6"> Entrada 6</a></li>
+            <li><a href="#e7"> Entrada 7</a></li>
+        </ul>
+    </div>
+    <div class="contingut">
+    <h2>Timeline</h2>
+    <h3 id="e1">Post 1</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae rerum eveniet, reprehenderit perferendis deleniti consequuntur non minima saepe quas optio facere! Rerum beatae libero, voluptatum ab sequi ut optio? Totam?
+    Laudantium soluta voluptates quasi, dolorem nulla a, assumenda quidem nemo eius dolor accusamus, vero magnam nesciunt veritatis inventore? Soluta deleniti sint dolor incidunt aliquid earum ea. Nemo ipsum cupiditate laboriosam?
+    Ratione quia incidunt laudantium obcaecati eos a consequuntur non, odit eligendi dicta dolorum ipsum iste deleniti earum voluptatem eveniet eaque? Hic rem dicta velit nisi culpa veritatis, consequatur minima impedit.</p>
+    <h3 id="e2">Post 3</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae rerum eveniet, reprehenderit perferendis deleniti consequuntur non minima saepe quas optio facere! Rerum beatae libero, voluptatum ab sequi ut optio? Totam?
+    Laudantium soluta voluptates quasi, dolorem nulla a, assumenda quidem nemo eius dolor accusamus, vero magnam nesciunt veritatis inventore? Soluta deleniti sint dolor incidunt aliquid earum ea. Nemo ipsum cupiditate laboriosam?
+    Ratione quia incidunt laudantium obcaecati eos a consequuntur non, odit eligendi dicta dolorum ipsum iste deleniti earum voluptatem eveniet eaque? Hic rem dicta velit nisi culpa veritatis, consequatur minima impedit.</p>
+    <h3 id="e3">Post 3</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae rerum eveniet, reprehenderit perferendis deleniti consequuntur non minima saepe quas optio facere! Rerum beatae libero, voluptatum ab sequi ut optio? Totam?
+    Laudantium soluta voluptates quasi, dolorem nulla a, assumenda quidem nemo eius dolor accusamus, vero magnam nesciunt veritatis inventore? Soluta deleniti sint dolor incidunt aliquid earum ea. Nemo ipsum cupiditate laboriosam?
+    Ratione quia incidunt laudantium obcaecati eos a consequuntur non, odit eligendi dicta dolorum ipsum iste deleniti earum voluptatem eveniet eaque? Hic rem dicta velit nisi culpa veritatis, consequatur minima impedit.</p>
+    <h3 id="e4">Post 4</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae rerum eveniet, reprehenderit perferendis deleniti consequuntur non minima saepe quas optio facere! Rerum beatae libero, voluptatum ab sequi ut optio? Totam?
+    Laudantium soluta voluptates quasi, dolorem nulla a, assumenda quidem nemo eius dolor accusamus, vero magnam nesciunt veritatis inventore? Soluta deleniti sint dolor incidunt aliquid earum ea. Nemo ipsum cupiditate laboriosam?
+    Ratione quia incidunt laudantium obcaecati eos a consequuntur non, odit eligendi dicta dolorum ipsum iste deleniti earum voluptatem eveniet eaque? Hic rem dicta velit nisi culpa veritatis, consequatur minima impedit.</p>
+    <h3 id="e5">Post 5</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae rerum eveniet, reprehenderit perferendis deleniti consequuntur non minima saepe quas optio facere! Rerum beatae libero, voluptatum ab sequi ut optio? Totam?
+    Laudantium soluta voluptates quasi, dolorem nulla a, assumenda quidem nemo eius dolor accusamus, vero magnam nesciunt veritatis inventore? Soluta deleniti sint dolor incidunt aliquid earum ea. Nemo ipsum cupiditate laboriosam?
+    Ratione quia incidunt laudantium obcaecati eos a consequuntur non, odit eligendi dicta dolorum ipsum iste deleniti earum voluptatem eveniet eaque? Hic rem dicta velit nisi culpa veritatis, consequatur minima impedit.</p>
+    <h3 id="e6">Post 6</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae rerum eveniet, reprehenderit perferendis deleniti consequuntur non minima saepe quas optio facere! Rerum beatae libero, voluptatum ab sequi ut optio? Totam?
+    Laudantium soluta voluptates quasi, dolorem nulla a, assumenda quidem nemo eius dolor accusamus, vero magnam nesciunt veritatis inventore? Soluta deleniti sint dolor incidunt aliquid earum ea. Nemo ipsum cupiditate laboriosam?
+    Ratione quia incidunt laudantium obcaecati eos a consequuntur non, odit eligendi dicta dolorum ipsum iste deleniti earum voluptatem eveniet eaque? Hic rem dicta velit nisi culpa veritatis, consequatur minima impedit.</p>
+    <h3 id="e7">Post 7</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae rerum eveniet, reprehenderit perferendis deleniti consequuntur non minima saepe quas optio facere! Rerum beatae libero, voluptatum ab sequi ut optio? Totam?
+    Laudantium soluta voluptates quasi, dolorem nulla a, assumenda quidem nemo eius dolor accusamus, vero magnam nesciunt veritatis inventore? Soluta deleniti sint dolor incidunt aliquid earum ea. Nemo ipsum cupiditate laboriosam?
+    Ratione quia incidunt laudantium obcaecati eos a consequuntur non, odit eligendi dicta dolorum ipsum iste deleniti earum voluptatem eveniet eaque? Hic rem dicta velit nisi culpa veritatis, consequatur minima impedit.</p>
+</div>
+    <div class="lateral">
+        <h2>Contacts</h2>
+        <ul>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+        </ul>
+    </div>
+    <div class="peu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae officiis harum quaerat minima repellendus labore fuga omnis hic quasi velit dignissimos quisquam tempore fugiat nemo, obcaecati natus! Obcaecati, doloribus pariatur.</div>
+</body>
+
+
+</html>

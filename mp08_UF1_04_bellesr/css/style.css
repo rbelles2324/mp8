@@ -1,0 +1,218 @@
+
+body {
+    font-family: sans-serif;
+}
+
+.menu {
+    height: 168px;
+}
+
+.contactes {
+    height: 195px;
+    
+}
+
+.contingut {
+    width: 1665;
+}
+
+.centrador {
+    width: 1665px;
+    background-color: yellow;
+    overflow: hidden;
+    margin: auto;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    background-color: white;
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 200px;
+}
+
+ul {
+    width: 1060px;
+    font-size: 10px ;
+    margin: 0 auto;
+    padding: 36px;
+}
+
+#contacte01 {
+    background-image: url(../img/ifpagram_13.png);
+    background-repeat: no-repeat;
+}
+#contacte01:hover {
+    background-size: 200%;
+    background-position: center;
+}
+
+#contacte02 {
+    background-image: url(../img/ifpagram_09.png);
+    background-repeat: no-repeat;
+}
+
+#contacte03 {
+    background-image: url(../img/ifpagram_09.png);
+    background-repeat: no-repeat;
+}
+
+#contacte04 {
+    background-image: url(../img/ifpagram_09.png);
+    background-repeat: no-repeat;
+}
+
+#contacte05 {
+    background-image: url(../img/ifpagram_09.png);
+    background-repeat: no-repeat;
+}
+#contacte06 {
+    background-image: url(../img/ifpagram_09.png);
+    background-repeat: no-repeat;
+}
+#contacte07 {
+    background-image: url(../img/ifpagram_09.png);
+    background-repeat: no-repeat;
+}
+#contacte08 {
+    background-image: url(../img/ifpagram_09.png);
+    background-repeat: no-repeat;
+}
+#contacte09 {
+    background-image: url(../img/ifpagram_09.png);
+    background-repeat: no-repeat;
+}
+#contacte10 {
+    background-image: url(../img/ifpagram_09.png);
+    background-repeat: no-repeat;
+    
+}
+
+li {
+   background-size: 100%;
+    background-repeat: no-repeat; 
+}
+
+.logo {
+    padding-left: 77px;
+    padding-top: 75px;
+    float: left;
+}
+
+.nav {
+    float: left;
+    padding-top: 75px;
+    padding-left: 673px;
+}
+
+
+.user {
+    float: right;
+    padding-top: 66px;
+}
+
+.nav ul {
+    height: 50px;
+    width: 296px;
+    padding: 0;
+    margin: auto;
+    background-size: 80%;
+}
+
+.nav ul li {
+    width: 42px;
+    height: 42px;
+    margin: 4px;
+}
+
+.home {
+    background-image: url(../img/ifpagram_05.png);
+    background-size: 600%;
+    background-position: 5px;
+}
+
+.search {
+    background-image: url(../img/ifpagram_05.png);
+    background-size: 600%;
+    background-position: -70px;
+}
+
+.tv {
+    background-image: url(../img/ifpagram_05.png);
+    background-size: 600%;
+    background-position: -143px;
+}
+
+.like {
+    background-image: url(../img/ifpagram_05.png);
+    background-size: 600%;
+    background-position: -217px;
+}
+
+.post {
+    width: 535px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    height: 600px;
+
+}
+
+
+.post img{
+    width: 535px;
+}
+
+.post div{
+    width: 150px;
+    height: 70px;
+    margin: 5px;
+}
+
+
+.post .postejador {
+    float: left;
+}
+
+.post .postejador img {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+.post .reaccions {
+    float: right;
+    width: 170px;
+}
+
+
+.post h5 {
+    height: 25px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+
+.post h6 {
+    height: 25px;
+    line-height: 25px;
+}
+
+
+a: link {
+    opacity: 100%;
+}
+
+a:hover {
+    opacity:60%;
+    background-size: 200%;
+    
+}
+
+
+

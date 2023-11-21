@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+
+.contenidor{
+    background-color: rgb(65, 65, 65);
+    height: 1000px;
+}
+
+
+.cabecera{
+    height: 50px;
+    background-color: black;
+    opacity: 50%;
+}
+
+
+.cabecera img{
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px ;
+    color: white;
+    margin: 10px;
+    margin-left: 5px;
+    float: left;
+    position: relative;
+    top:-40px;
+    left: 120px;
+    
+}
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px ;
+    color: white;
+    top: 20px;
+    left: -280px;
+    position: relative;
+}
+
+
+.pelis{
+    width: 175px;
+    border-radius: 5px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    border-color: aqua;
+}
+
+.peli{
+    width: 175px;
+    height: 250px;
+    background-color: black;
+    border-radius: 5px;
+    margin: 20px;
+    float: left;
+}
+
+
+#peli1{
+    background-image: url(../img/1982Koyaanisqatsi.jpg);
+}
+
+#peli2{
+    background-image: url(../img/2004YTuQueSabes.jpg);
+}
+
+#peli3{
+    background-image: url(../img/2005Earthlings.jpg);
+}
+
+#peli4{
+    background-image: url(../img/2007Helvetica.jpg);
+}
+
+#peli5{
+    background-image: url(../img/2007Sicko.jpg);
+}
+
+#peli6{
+    background-image: url(../img/2009ArtAndCopy.jpg);
+}
+
+#peli7{
+    background-image: url(../img/2009RipARemixManifesto.jpg);
+}
+
+#peli8{
+    background-image: url(../img/2009Home.jpg);
+}
+
+

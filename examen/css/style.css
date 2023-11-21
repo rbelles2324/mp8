@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+
+.contenidor{
+    margin: auto;
+}
+
+.cabecera{
+    height: 50px;
+    background-color: black;
+    opacity: 50%;
+}

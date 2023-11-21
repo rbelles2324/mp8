@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+
+
+.contenidor{
+    height: 2000px;
+    background-color: #222;
+}
+
+
+.cabecera {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    opacity: 50%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.cabecera img{
+    height: 40px;
+    margin: 5px 20px 5px 20px;
+    float: left;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #ccc;
+    float: left;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ccc;
+    float: right;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+a:hover {
+    text-decoration: underline 2px;   
+    color: #fff;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    top: 70px;
+    margin-left: 20px;
+}
+
+
+.peli{
+    width: 175px;
+    margin: 20px;
+    margin-top: 80px;
+    float: left;
+}
+
+.peli img {
+    border-radius: 5px;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ccc;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #ccc;
+    margin-top: 20px;
+    float: left;
+}
+
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #ccc;
+    margin-top: 20px;
+    float: right;
+}
