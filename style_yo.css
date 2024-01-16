@@ -1,0 +1,44 @@
+body{
+    background-color: skyblue;
+}
+
+
+.line{
+    width: 1rem;
+    height: 80rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-top: 5rem;
+    margin: auto;
+}
+
+@font-face {
+    font-family: 'nube';
+    src: url('fonts/nube.otf') format('OpenType');}
+
+
+
+h1{
+    font-family: 'nube';
+    color: white;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+       
+}
+
+
+.info1{
+    width: 30rem;
+    float: right;
+    margin: 5rem;
+}
+
+
+.info2{
+    width: 30rem;
+    float: left;
+    margin: 5rem;
+}
