@@ -1,0 +1,185 @@
+
+*{
+  margin: 0;
+}
+
+@font-face {
+    font-family: 'nubesita';
+    src: url('../fonts/nube.woff2') format('woff2'),
+        url('../fonts/nube.woff') format('woff'),
+        url('../fonts/nube.otf') format('otf');;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body, html {
+    width: 100%;
+    overflow: x;
+}
+
+
+body{
+    background-color: skyblue;
+}
+
+
+.background{
+    width: 100%;
+    height: 100rem;
+}
+
+
+.titulo{
+    width: 100%;
+    height: 25rem;
+}
+
+
+h1{ 
+    font-size: 29.5rem;
+    font-family: "nubesita";
+    color: white;
+    text-align: center;
+}
+
+
+.roger{
+    width: 60rem;
+    height: 9rem;
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{ 
+    font-size: 10rem;
+    font-family: 'nubesita';
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+
+.avioneta img{
+    width: 75rem;
+    margin-top: 4rem;
+}
+
+
+
+.contenedor{
+    width: 100%;
+    height: 100rem;
+}
+
+
+.cloud{
+    list-style: none;
+}
+
+.cloud {
+    width: 350px; height: 120px;
+    background: white;
+    top: 700px; left: 50px;
+    border-radius: 100px;
+    position: absolute;
+    margin: 120px auto 20px;
+    left:200px;
+    z-index: 50;
+    text-decoration: none;
+    border: dotted white 3px;
+}
+
+.cloud:after, .cloud:before {
+    content: '';
+    position: absolute;
+    background: #FFF;
+    
+}
+
+.cloud:after {
+    width: 100px; 
+    height: 100px;
+    top: -50px; 
+    left: 50px;
+    border-radius: 50%;
+}
+
+.cloud:before {
+    width: 200px; height: 200px;
+    top: -90px; right: 50px;
+    border-radius: 200px;
+}
+
+
+
+
+h3{
+    position: relative;
+    font-family: 'nubesita';
+    font-size: 10rem;
+    color: white;
+    z-index: 500;
+    text-shadow: 4px 4px 8px grey;
+    text-align: center;
+    line-height: 100px; 
+}
+
+li{
+    list-style: none;
+}
+
+
+
+
+#c2{
+    left: 55rem;
+}
+
+
+#c3{
+    left: 100rem;
+}
+
+#c4{
+    top: 70rem;
+    left: 5rem;
+}
+
+#c5{
+    top: 70rem;
+    left: 35rem;
+}
+
+#c6{
+    top: 70rem;
+    left: 75rem;
+}
+
+#c7{
+    top: 70rem;
+    left: 110rem;
+}
+
+#c8{
+    top: 95rem;
+    left: 20rem;
+}
+
+#c9{
+    top: 95rem;
+    left: 55rem;
+}
+
+#c10{
+    top: 95rem;
+    left: 95rem;
+}
+
+
+
