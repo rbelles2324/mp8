@@ -40,6 +40,42 @@
             font-family: Fantasia ;
         }
 
+
+ul{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+
+li{
+    float: left;
+    display: inline-block;
+    margin: 1rem;
+    background-color: aqua;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 50%;
+}
+
+
+#petit{
+    font-size: 1rem;
+}
+
+
+#mitja{
+    font-size: 1.5rem;
+}
+
+
+#gran{
+    font-size: 2rem;
+}
+
         /*diseny mobil vertival */
         @media screen and (max-width:480px){
             body{background: red;
@@ -54,21 +90,51 @@
         @media screen and (min-width:1025px) {
             body{background: orange;
         }}
+
+        .progres{
+                height:1rem;
+                width:100%;
+                background:limegreen;
+                position:fixed;
+                top:0;
+                left:0;
+                right:0;
+                z-index:1000;
+                scale:0 1;
+                transform-origin:left;
+                animation: jacobo linear;
+                animation-timeline: scroll();
+                }
+                @keyframes jacobo {
+                to{
+                    scale:1 1;
+                }
+            }
     </style>
 </head>
 
 
 <body>
+
+    <ul>
+        <li id="petit" >-</li>
+        <li id="mitja" >=</li>
+        <li id="gran" >+</li>
+    </ul>
+
+<div class="progres"></div>
+
     <h1>APP</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo et sunt veniam, voluptas aperiam. Laborum repudiandae rem, ratione similique voluptatem in alias qui velit, dolorum omnis laboriosam? Excepturi, deleniti.</p>
 </body>
 </html>
+<script src="js/font.js"></script>

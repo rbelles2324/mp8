@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to bottom left, pink 50%, ivory 50%);
+}
+
+.contenidor{
+    width: 960px;
+    margin: auto;
+}
+
+.cap{
+    width: 100%;
+    height: 589px;
+}
+
+h2{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+
+
+
+
+.cos{
+    width: 100%;
+    height: 780px;
+}
+
+
+
+.graella{
+    width: 300px;
+    height: 240px;
+    margin: 10px;
+    float: left;
+}
+
+
+.img1{
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/small/small_pulp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.img2{
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/small/small_taxi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.img3{
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/small/small_bond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.img4{
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/small/small_ghost.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.img5{
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/small/small_bean.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.img6{
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/small/small_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.img7{
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/small/small_rider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.img8{
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/small/small_team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.img9{
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/small/small_break.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cajatexto{
+    width: 100%;
+    height: 40px;
+    background-color: white; 
+}
+
+
+
+h1{
+    width: 100%;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+
+
+
+
+.peu{
+    width: 100%;
+    height: 220px;
+}
+
+
+.imglogo{
+    background-image: url(../img/logo_carsandfilms.png);
+    height: 220px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
